@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <title>Encriptador & Desencriptador 2023 Alura</title>
+</head>
+
+    <div id="centrar" > 
+    
+    <body>
+
+        <header>
+            <div> <img src="img/Vector.png" alt="imagen logo" class="logo"></div>
+        </header>
+
+        <main>
+            <section>
+                <textarea class="input-texto" name="input" id="input" cols="30" rows="10"
+                    placeholder="Ingrese Texto Aqui "></textarea>
+
+                <div>
+                    <h6 class="leyenda"> <img src="img/Vector_2.png"> Solo letras minusculas y sin acentos
+                    </h6>
+                </div>
+
+                <div class="botones">
+                    <button class="btn-e" type="button" id="encriptar" value="encriptar">Encriptar</button>
+                    <button class="btn-d" type="button" id="desencriptar" value="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+
+            <section>
+                <textarea class="output-texto" name="output" id="output" cols="30" rows="10" placeholder="">
+
+                            </textarea>
+                <div class="texto-1">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                    <h1>
+                        Ingresa el texto que desees encriptar o desencriptar.</h1>
+                </div>
+                <div>
+                    <button onclick="copiarTexto()" class="btn-c">Copiar</button>
+                </div>
+            </section>
+
+        </main>
+
+        <script src="funciones.js">
+
+        </script>
+
+    </body>
+     
+</div>
+
+</html>

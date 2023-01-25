@@ -14,8 +14,9 @@ function encriptar (){
 function desencriptar(){
     var textoingresado = document.querySelector("#input").value;
     var textoencriptado = textoingresado.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u");
+    document.querySelector(".output-texto").value = textoencriptado ;
     document.querySelector(".input-texto").value = textoencriptado ;
-    document.querySelector("#input").value;
+    document.querySelector("#input").value = "";
    
 }
 
@@ -31,4 +32,11 @@ function copiarTexto(){
 
 }
   
+
+function limpiarTexto(){
+    var texto = document.getElementById("output")
+    texto.select();
+    texto.setSelectionRange(0 , 99999);
+    document.querySelector("#output").value = "";
+}
   

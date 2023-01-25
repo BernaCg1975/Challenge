@@ -156,6 +156,20 @@ height: 54px;
 
 }
 
+.btn-r{
+  background: #d3d3d3da; 
+  border: 1px solid #0A3871;
+  border-radius: 20px; 
+  color:#0A3871;
+  cursor: pointer;
+  padding: 12px;
+  width: 250px;
+  height: 54px;
+  margin-left: 120px;
+  margin-top: 550px;
+  position: absolute; 
+}
+
 
 @media screen and (max-width:780px){
 

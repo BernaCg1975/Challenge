@@ -7,7 +7,7 @@
   font-size: 16px;
   line-height: 150%;
   
-}*
+}
 
 #centrar{
   
@@ -174,8 +174,9 @@ height: 54px;
 @media screen and (max-width:780px){
 
   #centrar{
-   display: flex;
-   width:780px ;
+   display: block;
+   margin-left: 0;
+   margin-bottom: 380px;
      
   }
 
@@ -271,14 +272,19 @@ border-radius: 32px;
  }
   .btn-c{
     visibility: hidden;
+  
+  }
+  .btn-r{
+    visibility: hidden;
   }
 }
 
 
 @media screen and (max-width:480px) {
   #centrar{
-    display: flex;
-      
+    display: block;
+    margin-left: 0;
+    margin-bottom: 380px;
    }
  
  .logo{
@@ -372,6 +378,10 @@ border-radius: 32px;
    background: none;
   }
    .btn-c{
+     visibility: hidden;
+
+   }
+   .btn-r{
      visibility: hidden;
    }
   

@@ -170,6 +170,16 @@ height: 54px;
   position: absolute; 
 }
 
+.bajada{
+  font: 1em sans-serif;
+  text-align: center;
+  z-index:999;
+  display: flex;
+  position: absolute;
+  top:680px;
+  left: 380px;px;
+}
+
 
 @media screen and (max-width:780px){
 

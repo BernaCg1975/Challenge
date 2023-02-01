@@ -184,10 +184,12 @@ height: 54px;
 @media screen and (max-width:780px){
 
   #centrar{
-   display: block;
-   margin-left: 0;
-   margin-bottom: 380px;
-     
+
+    display: flex;
+    justify-items: center;
+    width: auto;
+    margin: 0;
+    padding: 0;
   }
 
 .logo{
@@ -201,10 +203,8 @@ top: 5px;
 }
 
 main{
-  width: 100%;
-  margin-bottom: 50px;
-  margin-left: 80px;
-  width: 100%;
+  display: flex;
+  width: 200px;
  
 }
 
@@ -212,7 +212,8 @@ main{
 .input-texto{
   width: 588px;
   height: 800px;
-  margin-left: 35px;
+  margin-left: 0;
+  padding: 10px;
   
 } 
 
@@ -228,11 +229,15 @@ main{
 }
 
 .btn-e{
-  margin-left: 15px;
+  display: flex;
+  
+  margin-left: 0px;
 }
 
 .btn-d{
-  margin-left: 30px;
+  display: flex;
+  
+  margin-left: 0px;
 }
 
 .output-texto{
@@ -240,11 +245,11 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: flex-start;
-padding: 32px;
-gap: 32px;
+/*padding: 32px;*/
+/*gap: 32px;*/
 position: absolute;
 width:588px;
-height: 133px;
+height:500px;
 left:0px;
 top: 1100px;
 /* White */
@@ -255,6 +260,8 @@ border-radius: 32px;
 
 }
 
+
+
 .texto-1 h3 {
   font-size:30px ;
   width:588px;
@@ -263,29 +270,44 @@ border-radius: 32px;
   flex-direction: column;
   align-items:center;
   position: absolute;
-  left: 38px;
+  left: -3px;
   top: 740px;
   text-align: center;
   
 }
  .texto-1 h1 {
-  font-size:19px ;
-  width:588px ;
-  height:100px;
-  display: flex;
-  flex-direction: column;
+  display: none;
+ }
+
+ .texto-1 h3{
   position: absolute;
   left: 0px;
   top: 715px;
-  text-align: center;
-  background: none;
- }
+  top: 1000px;
+}
   .btn-c{
-    visibility: hidden;
-  
+  display: flex;
+  position: absolute;
+  width:588px;
+  height:60px;
+  align-items: center;
+  left:-30px;
+  top: 1000px;
   }
   .btn-r{
-    visibility: hidden;
+    display: flex;
+    display: flex;
+    position: absolute;
+    width:588px;
+    height:60px;
+    align-items: center;
+    left:-30px;
+    top: 1010px;
+  }
+
+  
+  .bajada{
+    display:none;
   }
 }
 
